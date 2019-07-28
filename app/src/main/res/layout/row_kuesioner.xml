@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Nama judul" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@android:color/black"
+        android:text="Pertanyaan" />
+
+    <RadioGroup
+        android:id="@+id/rgAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/rbSering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sering"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/rbJarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jarang" />
+        <RadioButton
+            android:id="@+id/rbTidakPernah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak Pernah" />
+    </RadioGroup>
+
+</LinearLayout>
