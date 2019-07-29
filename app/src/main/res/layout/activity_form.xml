@@ -31,6 +31,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:textSize="16dp"
+            android:textColor="@android:color/black"
             android:text="Lengkapi data Anda terlebih dahulu"/>
         <TextView
             android:layout_width="wrap_content"
@@ -38,6 +39,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="5dp"
             android:textSize="14dp"
+            android:textColor="@android:color/black"
             android:text="Nama"/>
         <EditText
             android:id="@+id/etName"
@@ -54,6 +56,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="5dp"
             android:textSize="14dp"
+            android:textColor="@android:color/black"
             android:text="Email"/>
         <EditText
             android:id="@+id/etEmail"
