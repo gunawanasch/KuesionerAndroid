@@ -121,7 +121,7 @@ public class KuesionerActivity extends AppCompatActivity {
                 }
                 else {
                     pbKuesioner.setVisibility(View.GONE);
-                    Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mendapatkan respon", Snackbar.LENGTH_LONG);
+                    Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mendapatkan respon.", Snackbar.LENGTH_LONG);
                     snackbar.show();
                 }
             }
@@ -130,7 +130,7 @@ public class KuesionerActivity extends AppCompatActivity {
             public void onFailure(Call<ArrayList<Kuesioner>> call, Throwable t) {
                 pbKuesioner.setVisibility(View.GONE);
                 t.printStackTrace();
-                Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mengakses data", Snackbar.LENGTH_LONG);
+                Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mengakses data.", Snackbar.LENGTH_LONG);
                 snackbar.show();
             }
         });
@@ -168,7 +168,7 @@ public class KuesionerActivity extends AppCompatActivity {
                         }
                     }
                     else {
-                        Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mendapatkan respon", Snackbar.LENGTH_LONG);
+                        Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mendapatkan respon.", Snackbar.LENGTH_LONG);
                         snackbar.show();
                     }
                 }
@@ -184,7 +184,7 @@ public class KuesionerActivity extends AppCompatActivity {
             public void onFailure(Call<ResponseBody> call, Throwable t) {
                 progress.dismiss();
                 t.printStackTrace();
-                Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mengakses data", Snackbar.LENGTH_LONG);
+                Snackbar snackbar = Snackbar.make(coordinatorLayout, "Gagal dalam mengakses data.", Snackbar.LENGTH_LONG);
                 snackbar.show();
             }
         });
