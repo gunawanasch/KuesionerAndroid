@@ -17,8 +17,6 @@ public class Kuesioner {
 
     private int selectedRadioButtonId;
 
-    private String customTag;
-
     public int getIdTitle() {
         return idTitle;
     }
@@ -57,13 +55,5 @@ public class Kuesioner {
 
     public void setSelectedRadioButtonId(int selectedRadioButtonId) {
         this.selectedRadioButtonId = selectedRadioButtonId;
-    }
-
-    public String getCustomTag() {
-        return customTag;
-    }
-
-    public void setCustomTag(String customTag) {
-        this.customTag = customTag;
     }
 }
